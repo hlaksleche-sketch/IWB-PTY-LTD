@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+  <div class="header-inner">
+    <div class="logo">IWB <span>PTY LTD</span></div>
+
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</header>
+
+ <h2>About Us</h2>
+      <p>At IWB PTY LTD,we focuse on environmentally responsible management, data security, and resource recovery through certified processes.</p>
+      <p>We collect, sort, dismantle, shred, and refine discarded electronics to prevent toxic materials from entering landfills and to reintroduce valuable components back into the manufacturing lifecycle.</p>
+<footer>
+    <p>© 2023 IWB PTY LTD. All rights reserved.</p>
+    <p><a href="contact.html">Contact</a></p>
+  </footer>
+  <script>
+  function toggleNav() {
+    var navbar = document.getElementById("navbar");
+    navbar.classList.toggle("active");
+  }
+</script>
+
+</body>
+</html>
